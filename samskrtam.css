@@ -1,0 +1,51 @@
+/* spacing */
+
+html {
+    font-family: sans-serif;
+    width: 100%;
+}
+body {
+    width: 100%;
+    margin: 20px;
+    padding: 0;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 2em auto;
+}
+
+.sandhiTablesContainer {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 16px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 760px) {
+    head{
+        font-size: 0.8em;
+    }
+    body { 
+        font-size: 1.0em; 
+     }
+    .sandhiTablesContainer {
+        grid-template-columns: 100%;
+    }
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+caption {
+    padding: 10px;
+}
+tr,th,td {
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
