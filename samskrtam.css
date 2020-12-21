@@ -7,34 +7,40 @@
 html {
     font-family: sans-serif;
     width: 100%;
+
+    /* border: 2px solid green; */
 }
 body {
     margin: 20px;
     padding: 0;
+
+    /* border: 2px solid red; */
 }
 main {
     width: 100%;
     max-width: 100%;
 }
 .wrapper {
-    width: 100%;
+    /* width: 100%; */
     max-width: 960px;
-    margin: 2em auto;
+    margin: 1em auto;
 }
 
 .sandhiTablesContainer {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     grid-template-columns: 40% 40%;
     gap: 16px;
-    padding: 8px;
+    justify-content: center;
+
+    /* border: 2px solid blue; */
 }
 
 /* small screen */
 @media only screen and (max-width: 734px) {
     body { 
         max-width: 100%;
-        font-size: 1.0em; 
+        /* font-size: 1.0em;  */
      }
     .sandhiTablesContainer {
         grid-template-columns: 100%;
@@ -47,7 +53,7 @@ table {
     border-collapse: collapse;
     border: 2px solid black;
     font-size: 1.2em;
-    margin: 0 auto;
+    
 }
 caption {
     padding: 10px;
